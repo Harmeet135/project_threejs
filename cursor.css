@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --cursor-size: 28px;
     --bg: #a129e2;
   }
@@ -31,7 +31,7 @@
   
   body {
     overflow-x: hidden;
-    /*   cursor: none; */
+      cursor: none;
   }
   
   h1 {
@@ -46,4 +46,4 @@
   .goo {
     display: none;
   }
-  
+   */
