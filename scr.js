@@ -1,6 +1,4 @@
 
-console.clear();
-
 const TAIL_LENGTH = 20;
 
 const cursor = document.getElementById("cursor");
