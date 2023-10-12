@@ -1,0 +1,11 @@
+Model Information:
+* title:	DNA hologram
+* source:	https://sketchfab.com/3d-models/dna-hologram-c4a30768ac7044f182b4c4a36a7608ca
+* author:	oxterium (https://sketchfab.com/oxterium)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DNA hologram" (https://sketchfab.com/3d-models/dna-hologram-c4a30768ac7044f182b4c4a36a7608ca) by oxterium (https://sketchfab.com/oxterium) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
