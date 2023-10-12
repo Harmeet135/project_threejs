@@ -9,7 +9,7 @@ import { slideIn } from "../utils/motion";
 const Contact = () => {
   return (
     <>
-    <div className="xs:grid  gap-12 sm:grid-cols-4 sm:justify-end">
+    <div className="xs:grid  gap-12 sm:grid-cols-4 sm:justify-end overflow-x-hidden">
     {/* First column (2fr) */}
     <div className="col-span-2">
       <motion.div
