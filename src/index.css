@@ -15,9 +15,15 @@
 
 }
 button{
-  font-weight: 800;
+  font-weight: 400;
   border-radius: 5px;
+  /* border: #804dee solid 1px; */
+ 
 }
+/* button:hover{
+  background-color: #804dee;
+  
+} */
 
 .hash-span {
   margin-top: -100px;

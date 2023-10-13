@@ -30,13 +30,13 @@ const Hero = () => {
           </p>
           {/* </p> */}
           <div className="flex sm:gap-8 text-[#a784f4] text-[1.2rem] sm:flex-row flex-col gap-[0.6rem]">
-            <button className="bg-[#a784f4] text-[#fff] p-2">
+            <button className="bg-[#a784f4] font-[500] text-[black] px-2 py-[0.3rem] hover:bg-transparent hover:text-[#fff] border border-[#a784f4] ">
               Try ideaFlow Notes
             </button>
-            <button>ios</button>
-            <button>Guide</button>
-            <button>Twitter</button>
-            <button>Newsletter</button>
+            <button className="hover:text-[#fff]">ios</button>
+            <button className="hover:text-[#fff]">Guide</button>
+            <button className="hover:text-[#fff]">Twitter</button>
+            <button className="hover:text-[#fff]">Newsletter</button>
           </div>
         </div>
         </div>
