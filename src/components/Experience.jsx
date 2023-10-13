@@ -4,10 +4,10 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import Lottie from "lottie-react"
+import { lottie1 } from "../assets";
 
 import "react-vertical-timeline-component/style.min.css";
-
-import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
@@ -15,13 +15,14 @@ import { DnaCanvas } from "./canvas";
 import { heroimg, think } from "../assets";
 
 const ExperienceCard = ({ experience }) => {
-  const canvasPosition = experience.date === "2021" ? "left-[124%]" : "right-[124%]";
-  const canvasComponent = experience.date === "2021" ? <DnaCanvas /> :<img className="w-[18rem]" src={think} alt="Image" />;
+  const canvasPosition = experience.date === "2021" ? "left-[124%]" : "right-[131%]";
+  const canvasComponent = experience.date === "2021" ? <DnaCanvas /> :   <Lottie animationData={lottie1} />;
   return (
     <VerticalTimelineElement
       contentStyle={{
         background: "transparent",
         color: "#fff",
+        marginBottom: "4rem",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       //  date={experience.date}
@@ -37,17 +38,16 @@ const ExperienceCard = ({ experience }) => {
       }
     >
      
-    <div className={`absolute h-[17rem] w-full xl:flex contents overflow-hidden  justify-center ${canvasPosition} top-6 text-16px text-1rem`}>
+    <div className={`absolute h-[22rem] w-full xl:flex contents overflow-hidden  justify-center ${canvasPosition} top-[-1.5rem] text-16px text-1rem`}>
     {canvasComponent}
   </div>
 
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <h3 className="text-white text-[24px] font-bold mt-6">{experience.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {experience.company_name}
         </p>
       </div>
 
@@ -68,7 +68,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <div className="mt-20 flex flex-col">
+      <div className="mt-20 xs:mt-12 mb-8 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
