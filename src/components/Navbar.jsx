@@ -74,6 +74,9 @@ const Navbar = () => {
               <motion.a
                 href={`#${nav.id}`}
                 whileHover={{ textDecoration: "underline" }}
+                style={{
+                  color: nav.title === "We are hiring" ? "#915EFF" : "inherit",
+                }}
               >
                 {nav.title}
               </motion.a>

@@ -36,7 +36,7 @@ import {
     // },
     {
       id: "We are hiring",
-      title: "we are hiring",
+      title: "We are hiring",
     },
     {
       id: "Email",
